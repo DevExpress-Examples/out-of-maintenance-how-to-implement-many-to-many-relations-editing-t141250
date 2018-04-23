@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<versionStorage>
+  <auxPath value="net.tcp://vcsservice.devexpress.dev:9091/DXVCSService">
+    <projectPath value="$/2014.1/XPF/DevExpress.Xpf.Core/ScaffoldingSamples/Scaffolding.ManyToMany/Scaffolding.ManyToMany/Common/ViewModel" date="0">
+      <fileName value="SingleObjectViewModel.Extensions.cs" version="3" time="5247120423510741331" hash="rCSe8QeWIq0CwrEdGM/59Q==" writeTime="5247120422922436837" />
+      <fileName value="AddRemoveDetailEntitiesViewModel.cs" version="8" time="5247120423510751072" hash="7dUm4GTAso+0f6YqBANgxg==" writeTime="5247120422683242420" />
+    </projectPath>
+  </auxPath>
+</versionStorage>

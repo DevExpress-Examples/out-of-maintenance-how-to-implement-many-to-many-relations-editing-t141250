@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<versionStorage>
+  <auxPath value="net.tcp://vcsservice.devexpress.dev:9091/DXVCSService">
+    <projectPath value="$/2014.1/XPF/DevExpress.Xpf.Core/ScaffoldingSamples/Scaffolding.ManyToMany/Scaffolding.ManyToMany/Properties" date="0">
+      <fileName value="AssemblyInfo.cs" version="1" time="5247091909392674198" hash="vmjvLHil5wMiEh42I9gcFg==" writeTime="5247091909392674198" />
+      <fileName value="Resources.Designer.cs" version="1" time="5247091909392674198" hash="xz3MSRxCZQVUsux6r5Ngkw==" writeTime="5247091909392674198" />
+      <fileName value="Resources.resx" version="1" time="5247091909392664167" hash="DNjJcTF9GbvtRHV4Cby5Kw==" writeTime="5247091909392664167" />
+      <fileName value="Settings.Designer.cs" version="1" time="5247091909392674198" hash="9xX8guE9DA/vg/xxwuBgyw==" writeTime="5247091909392674198" />
+      <fileName value="Settings.settings" version="1" time="5247091909392674198" hash="r1uRhp7xJmwKM8iCoxHNIA==" writeTime="5247091909392674198" />
+    </projectPath>
+  </auxPath>
+</versionStorage>

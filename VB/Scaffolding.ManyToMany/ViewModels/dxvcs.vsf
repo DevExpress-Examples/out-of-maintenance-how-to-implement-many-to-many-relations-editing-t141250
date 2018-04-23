@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<versionStorage>
+  <auxPath value="net.tcp://vcsservice.devexpress.dev:9091/DXVCSService">
+    <projectPath value="$/2014.1/XPF/DevExpress.Xpf.Core/ScaffoldingSamples/Scaffolding.ManyToMany/Scaffolding.ManyToMany/ViewModels" date="0">
+      <fileName value="StudentViewModel.Extensions.cs" version="8" time="5247097794694068133" hash="P8VeRiIjO87bFGux0HyGdw==" writeTime="5247097225391938017" />
+      <fileName value="CourseViewModel.Extensions.cs" version="1" time="5247095470474112947" hash="wjnBCrOvCMUHtdDRXuSSIQ==" writeTime="5247095462792722419" />
+    </projectPath>
+  </auxPath>
+</versionStorage>

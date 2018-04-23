@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<versionStorage>
+  <auxPath value="net.tcp://vcsservice.devexpress.dev:9091/DXVCSService">
+    <projectPath value="$/2014.1/XPF/DevExpress.Xpf.Core/ScaffoldingSamples/Scaffolding.ManyToMany/Scaffolding.ManyToMany/Views" date="0">
+      <fileName value="DetailEntitiesView.xaml.cs" version="1" time="5247096097983604630" hash="i+VsxL7E7l9UJYdcYydfRg==" writeTime="5247096086279111493" />
+      <fileName value="DetailEntitiesView.xaml" version="1" time="5247096097984304719" hash="UXimAx2qXXG5N0zy0PIqXw==" writeTime="5247096096653932223" />
+    </projectPath>
+  </auxPath>
+</versionStorage>

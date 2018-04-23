@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<versionStorage>
+  <auxPath value="net.tcp://vcsservice.devexpress.dev:9091/DXVCSService">
+    <projectPath value="$/2014.1/XPF/DevExpress.Xpf.Core/ScaffoldingSamples/Scaffolding.ManyToMany/Scaffolding.ManyToMany/Data" date="0">
+      <fileName value="SchoolContext.cs" version="5" time="5247097232052827121" hash="xoGJ0DqQlSszdt+e82s+Uw==" writeTime="5247097223439817606" />
+      <fileName value="SchoolContextInitializer.cs" version="4" time="5247097785497068669" hash="WKjVvrqOjQw1wXS/VdMj4w==" writeTime="5247097227193340454" />
+    </projectPath>
+  </auxPath>
+</versionStorage>
