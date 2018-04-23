@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="Scaffolding.ManyToMany.Views.DetailEntitiesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+             xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" 
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <dxb:BarManager MDIMergeStyle="Never">
+            <dxmvvm:Interaction.Behaviors>
+                <dx:DialogService DialogWindowStartupLocation="CenterOwner">
+                    <dx:DialogService.DialogStyle>
+                        <Style TargetType="Window">
+                            <Setter Property="Width" Value="600"/>
+                            <Setter Property="Height" Value="400"/>
+                            <Setter Property="ResizeMode" Value="NoResize"/>
+                            <Setter Property="ShowInTaskbar" Value="False"/>
+                            <Setter Property="WindowStyle" Value="ToolWindow"/>
+                        </Style>
+                    </dx:DialogService.DialogStyle>
+                    <dx:DialogService.ViewTemplate>
+                        <DataTemplate>
+                            <dxg:GridControl ItemsSource="{Binding AvailableEntities}" SelectedItems="{Binding SelectedEntities}" SelectionMode="Row" ShowBorder="False" AutoGenerateColumns="RemoveOld" EnableSmartColumnsGeneration="True">
+                                <dxg:GridControl.TotalSummary>
+                                    <dxg:GridSummaryItem SummaryType="Count" Alignment="Right" />
+                                </dxg:GridControl.TotalSummary>
+                                <dxg:GridControl.View>
+                                    <dxg:TableView AllowEditing="False" ShowFixedTotalSummary="True" AllowPerPixelScrolling="True" ShowGroupPanel="False" AutoWidth="True"/>
+                                </dxg:GridControl.View>
+                            </dxg:GridControl>
+                        </DataTemplate>
+                    </dx:DialogService.ViewTemplate>
+                </dx:DialogService>
+            </dxmvvm:Interaction.Behaviors>
+            <dxb:BarManager.Bars>
+                <dxb:Bar>
+                    <dxb:BarButtonItem ToolTip="Add items" Glyph="{dx:DXImage Image=Add_16x16.png}" Command="{Binding AddDetailEntitiesCommand}"/>
+                    <dxb:BarButtonItem ToolTip="Remove items" Glyph="{dx:DXImage Image=Remove_16x16.png}" Command="{Binding RemoveDetailEntitiesCommand}"/>
+                </dxb:Bar>
+            </dxb:BarManager.Bars>
+            <dxg:GridControl ItemsSource="{Binding DetailEntities}" SelectedItems="{Binding SelectedEntities}" ShowBorder="False" SelectionMode="Row" AutoGenerateColumns="RemoveOld" EnableSmartColumnsGeneration="True">
+                <dxg:GridControl.TotalSummary>
+                    <dxg:GridSummaryItem SummaryType="Count" Alignment="Right" />
+                </dxg:GridControl.TotalSummary>
+                <dxg:GridControl.View>
+                    <dxg:TableView AllowEditing="False" ShowFixedTotalSummary="True" AllowPerPixelScrolling="True" ShowGroupPanel="False" AutoWidth="True">
+                    </dxg:TableView>
+                </dxg:GridControl.View>
+            </dxg:GridControl>
+        </dxb:BarManager>
+    </Grid>
+</UserControl>
