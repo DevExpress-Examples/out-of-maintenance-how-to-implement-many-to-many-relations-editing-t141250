@@ -1,3 +1,16 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [AddRemoveDetailEntitiesViewModel.cs](./CS/Scaffolding.ManyToMany/Common/ViewModel/AddRemoveDetailEntitiesViewModel.cs) (VB: [AddRemoveDetailEntitiesViewModel.vb](./VB/Scaffolding.ManyToMany/Common/ViewModel/AddRemoveDetailEntitiesViewModel.vb))
+* [SingleObjectViewModel.Extensions.cs](./CS/Scaffolding.ManyToMany/Common/ViewModel/SingleObjectViewModel.Extensions.cs) (VB: [SingleObjectViewModel.Extensions.vb](./VB/Scaffolding.ManyToMany/Common/ViewModel/SingleObjectViewModel.Extensions.vb))
+* [CourseCollectionViewModel.cs](./CS/Scaffolding.ManyToMany/ViewModels/CourseCollectionViewModel.cs) (VB: [CourseCollectionViewModel.vb](./VB/Scaffolding.ManyToMany/ViewModels/CourseCollectionViewModel.vb))
+* [CourseViewModel.Extensions.cs](./CS/Scaffolding.ManyToMany/ViewModels/CourseViewModel.Extensions.cs) (VB: [CourseViewModel.Extensions.vb](./VB/Scaffolding.ManyToMany/ViewModels/CourseViewModel.Extensions.vb))
+* [StudentCollectionViewModel.cs](./CS/Scaffolding.ManyToMany/ViewModels/StudentCollectionViewModel.cs) (VB: [StudentCollectionViewModel.vb](./VB/Scaffolding.ManyToMany/ViewModels/StudentCollectionViewModel.vb))
+* [StudentViewModel.Extensions.cs](./CS/Scaffolding.ManyToMany/ViewModels/StudentViewModel.Extensions.cs) (VB: [StudentViewModel.Extensions.vb](./VB/Scaffolding.ManyToMany/ViewModels/StudentViewModel.Extensions.vb))
+* [CourseCollectionView.xaml](./CS/Scaffolding.ManyToMany/Views/CourseCollectionView.xaml) (VB: [CourseCollectionView.xaml](./VB/Scaffolding.ManyToMany/Views/CourseCollectionView.xaml))
+* [DetailEntitiesView.xaml](./CS/Scaffolding.ManyToMany/Views/DetailEntitiesView.xaml) (VB: [DetailEntitiesView.xaml](./VB/Scaffolding.ManyToMany/Views/DetailEntitiesView.xaml))
+* [StudentCollectionView.xaml](./CS/Scaffolding.ManyToMany/Views/StudentCollectionView.xaml) (VB: [StudentCollectionView.xaml](./VB/Scaffolding.ManyToMany/Views/StudentCollectionView.xaml))
+<!-- default file list end -->
 # How To: Implement Many-to-many Relations Editing
 
 
